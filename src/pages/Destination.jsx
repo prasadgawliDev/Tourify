@@ -1,4 +1,5 @@
 import React from 'react'
+import SmartImage from '../components/SmartImage'
 import thailand from "../assets/thailand.jpg"
 import Indonesia from "../assets/indonesia.jpg"
 function Destination() {
@@ -48,7 +49,7 @@ function Destination() {
                   className="position-relative d-block overflow-hidden"
                   href=""
                 >
-                  <img
+                  <SmartImage
                     className="img-fluid"
                     src={thailand}
                     alt=""
@@ -114,7 +115,7 @@ function Destination() {
               className="position-relative d-block h-100 overflow-hidden"
               href=""
             >
-              <img
+              <SmartImage
                 className="img-fluid position-absolute w-100 h-100"
                 src={Indonesia}
                 alt=""

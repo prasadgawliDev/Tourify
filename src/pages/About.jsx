@@ -1,4 +1,5 @@
 import React from 'react'
+import SmartImage from "../components/SmartImage";
 import logo from '../assets/logo.jpg'
 
 function About() {
@@ -42,7 +43,7 @@ function About() {
             style={{ minHeight: 400 }}
           >
             <div className="position-relative h-100">
-              <img
+              <SmartImage
                 className="img-fluid position-absolute w-100 h-100"
                 src={logo}
                 alt=""
