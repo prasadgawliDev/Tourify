@@ -1,5 +1,5 @@
 import React from 'react'
-
+import SmartImage from "../components/SmartImage";
 import thailand from "../assets/thailand.jpg"
 import Indonesia from "../assets/indonesia.jpg"
 import logo from '../assets/logo.jpg'
@@ -46,7 +46,7 @@ export default function Home() {
             style={{ minHeight: 400 }}
           >
             <div className="position-relative h-100">
-              <img
+              <SmartImage
                 className="img-fluid position-absolute w-100 h-100"
                 src={logo}
                 alt=""
@@ -246,7 +246,7 @@ export default function Home() {
                   className="position-relative d-block overflow-hidden"
                   href=""
                 >
-                  <img
+                  <SmartImage
                     className="img-fluid"
                     src={thailand}
                     alt=""
@@ -312,7 +312,7 @@ export default function Home() {
               className="position-relative d-block h-100 overflow-hidden"
               href=""
             >
-              <img
+              <SmartImage
                 className="img-fluid position-absolute w-100 h-100"
                 src={Indonesia}
                 alt=""

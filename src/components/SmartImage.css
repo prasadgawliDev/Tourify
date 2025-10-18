@@ -1,0 +1,15 @@
+.smart-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transform: scale(1.05);     /* Slight zoom */
+  filter: blur(12px);         /* Blur while loading */
+  opacity: 0.7;
+  transition: filter 0.8s ease, transform 0.8s ease, opacity 0.6s ease;
+}
+
+.smart-image.loaded {
+  transform: scale(1);
+  filter: blur(0);
+  opacity: 1;
+}
